@@ -19,6 +19,7 @@ answers[1] = 0.5
 answers[2] = 0.75
 answers[3] = 0.625
 answers[4] = 0.6
+answers[9] = "George R. R. Martin wrote these sentences to begin the book 'A Game of Thrones - A Song of Ice and Fire'"
 answers[10] = "There are 5 words in our vocabulary, which are exactly the keys of the dictionary:" + " 'hodor', 'jaime', 'witch', 'red', 'dragon'. "
 answers[11] = 0.25
 answers[12] = 400/425
