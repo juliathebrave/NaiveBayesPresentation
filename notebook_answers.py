@@ -7,12 +7,11 @@ hints[1] = 'How many cookies are there in Bowl #1? How many cookies are there\ni
 hints[2] = 'How many cookies are there in Bowl #1? Of those, how many are \noatmeal?'
 hints[3] = "You've calculated P(Bowl #1) and P(oatmeal| Bowl #1) already. \nYou need to calculate P(Bowl #2) and P(oatmeal|Bowl #2) now and\nsubstitute all of these values into the formula."
 hints[4] = "Instead of copy/pasting you could use: \nprint(ans.answer(1)*ans.answer(2)/ans.answer(3))"
-hints[11] = "How many total spam messages are there? Of those, how many \ncontain the word 'hodor'?" 
-hints[11.5] = "You'll need to look at winter_dict to find how many spam\nemails contain the word 'hodor'."
-hints[11.7] = "Our training set contains 400 spams and 425 non-spams."
-hints[12] = "How many total non-spam messages are there? Of those, how \nmany contain the word 'hodor'?"
-hints[12.5] = "You'll need to look at winter_dict to find how many non-spam\nemails contain the word 'hodor'."
-hints[12.7] = "Our training set contains 400 spams and 425 non-spams."
+hints[11] = "The variable no_of_training_spams is already assigned.\nThe number of training spams containing the word 'hodor' is:\nwinter_dict['hodor'][0]"
+hints[11.5] ="Use:\nno_of_training_spams_containing_hodor = winter_dict['hodor'][0] "
+
+hints[12] = "The variable no_of_training_hams is already assigned.\nThe number of training hams containing the word 'hodor' is:\nwinter_dict['hodor'][1]"
+hints[12.5] ="Use:\nno_of_training_hams_containing_hodor = winter_dict['hodor'][1] "
 
 
 answers = {}
