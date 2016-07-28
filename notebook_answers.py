@@ -28,7 +28,7 @@ answers[10] = "There are 5 words in our vocabulary, which are exactly the \nkeys
 answers[11] = 0.25
 answers[12] = 400/425
 
-answers[14] = 'We classify it as spam because we estimated that the \nprobability it is spam (97%) is greater than 50%.'
+answers[14] = 'We classify it as spam because we estimated that the \nprobability it is spam (99%) is greater than 50%.'
 answers[15] = "Our classifier is absolutely certain this message isn't spam.\nThis is suspicious!"
 answers[16] = "In our training set, the word 'dragon' only appeared in \nmessages marked as 'not spam.' Our model thinks that P(S|dragon) = 0.\nSince we are multiplying probabilities together in our calculation, this 0 \nannihilated all the other probabilities."
 answers[17] = "With an estimated probability of about 85% (which is greater than 50%)\nthe message is classified as 'spam.'' \nThis is a very different answer than classifying the same message as \n'not spam' with absolute certainty!"
