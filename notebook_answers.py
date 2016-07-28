@@ -4,14 +4,17 @@ from __future__ import division
 hints = {}
 hints[0] = 'What is 42?'
 hints[1] = 'How many cookies are there in Bowl #1? How many cookies are there\nin total?'
+hints[1.5] = '\nYou want to do this:\nno_of_cookies_in_bowl_1 / total_no_of_cookies_in_both_bowls\n'
 hints[2] = 'How many cookies are there in Bowl #1? Of those, how many are \noatmeal?'
-hints[3] = "You've calculated P(Bowl #1) and P(oatmeal| Bowl #1) already. \nYou need to calculate P(Bowl #2) and P(oatmeal|Bowl #2) now and\nsubstitute all of these values into the formula."
-hints[4] = "Instead of copy/pasting you could use: \nprint(ans.answer(1)*ans.answer(2)/ans.answer(3))"
+hints[2.5] = '\nYou want to do this:\nno_of_oatmeal_cookies_in_bowl_1 / no_of_cookies_in_bowl_1\n'
+hints[3] = "You've calculated P(Bowl #1) and P(oatmeal| Bowl #1) already. \nYou need to calculate P(Bowl #2) and P(oatmeal|Bowl #2) now and\nsubstitute all of these values into the formula above."
+hints[3.5] = "\nDon't worry if you get stuck. If you'd like an easier approach,\nthan using the Total Law of Probability, do this:\nno_of_oatmeal_cookies_in_both_bowls / total_no_of_cookies_in_both_bowls\n"
+hints[4] = "Instead of copy/pasting you could use: \nprint(ans.answer(1)*ans.answer(2)/ans.answer(3))\n"
 hints[11] = "The variable no_of_training_spams is already assigned.\nThe number of training spams containing the word 'hodor' is:\nwinter_dict['hodor'][0]"
-hints[11.5] ="Use:\nno_of_training_spams_containing_hodor = winter_dict['hodor'][0] "
+hints[11.5] ="\nUse:\nno_of_training_spams_containing_hodor = winter_dict['hodor'][0]\n"
 
 hints[12] = "The variable no_of_training_hams is already assigned.\nThe number of training hams containing the word 'hodor' is:\nwinter_dict['hodor'][1]"
-hints[12.5] ="Use:\nno_of_training_hams_containing_hodor = winter_dict['hodor'][1] "
+hints[12.5] ="\nUse:\nno_of_training_hams_containing_hodor = winter_dict['hodor'][1]\n"
 
 
 answers = {}
